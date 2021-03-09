@@ -1,0 +1,1 @@
+all htmls are website pages <3

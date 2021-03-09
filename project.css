@@ -1,0 +1,811 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top a{
+    width: 100%;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+}
+
+hr{
+    margin: 0px;
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body{
+    letter-spacing: 1px;
+    font-weight: lighter;
+    background-color: rgb(242, 242, 255);
+    color: rgb(12, 12, 12);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    padding-left: 50px;
+    display: flex;
+}
+
+.logo{
+    width:20%;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.menu{
+    margin-top: 9px;
+}
+
+h3{
+    padding-left: 30px;
+    display: inline-flex;
+}
+
+.links{
+    margin: 0 0 0 auto;
+    padding-right: 20px;
+}
+
+.links img{
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+}
+
+.greeting{
+    border-bottom: 1px solid black;
+    height: 610px;
+    display: flex;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    width: 50%;
+    text-align: left;
+}
+
+.heading{
+    padding-bottom: 22px;
+    font-size: 50px;
+}
+
+.button{
+    width: 82px;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    border: 1px solid rgb(31, 31, 31);
+    border-radius: 20px;
+}
+
+.images__greeting{
+    margin: 0 0 0 auto;
+}
+
+h4{
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5{
+    margin-bottom: 50px;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.posts-1, .posts-2{
+    position: relative;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+
+.images__posts-1, .images__posts-2{
+    height: 100%;
+}
+
+.paragraph__posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+}
+
+.heading__posts{
+    font-size: 40px;
+}
+
+.posts-1 h4, .posts-2 h4{
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.gallery{
+    text-align: center;
+    padding: 60px;
+    padding-bottom: 0px;
+}
+
+.heading__gallery{
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 50vh;
+  }
+
+.box {
+    filter: brightness(40%);
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    line-height: 0;
+}
+
+.box img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+}
+
+.box span {
+    font-size: 3.1vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 1.5;
+  }
+
+.box:hover { 
+    flex: 1 1 50%; 
+    filter: brightness(105%);
+}
+
+.box:hover img {
+    width: 100%;
+    height: 100%;
+}
+
+.heading__features{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.block{
+    border-right: 1px solid rgb(32, 32, 32);
+    border-bottom: 1px solid rgb(32, 32, 32);
+    padding: 50px;
+    text-align: center;
+    width: 300px;
+}
+
+.block h4{
+    margin-bottom: 20px;
+}
+
+.block:last-child{
+    border-right: none
+}
+
+.heading__connect{
+    padding-top: 50px;
+}
+
+input{
+    font-family: 'century gothic';
+    border: 2px solid rgb(2, 0, 12);
+    width: 350px;
+    background-color: rgb(242, 242, 255);
+    padding: 10px;
+    margin: 20px;
+}
+
+#radio_3{
+    display: table-row;
+    width: 50px;
+}
+
+b{
+    margin: 20px;
+}
+
+textarea{
+    font-family: 'century gothic';
+    border: 2px solid rgb(2, 0, 12);
+    background-color: rgb(242, 242, 255);
+    width: 50%;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+}
+
+select{
+    font-family: 'century gothic';
+    border: 2px solid rgb(2, 0, 12);
+    background-color: rgb(242, 242, 255);
+    padding: 10px;
+    margin: 20px;
+}
+
+button{
+    font-family: 'century gothic';
+    border: 2px solid rgb(2, 0, 12);
+    background-color: rgb(242, 242, 255);
+    padding: 10px;
+    margin: 20px;
+}
+
+label{
+    margin: 50px;
+}
+
+.morelinks{
+    margin: 0 0 0 auto;
+    padding-right: 20px;
+}
+
+.morelinks img{
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+}
+
+@media (max-width: 850px) {
+
+    .wrapper{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .top{
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+        margin-top: 15px;
+        padding-left: 10px;
+        display: flex;
+    }
+
+    .logo{
+        width:35%;
+        font-size: 14px;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .top a{
+        width: 100%;
+        font-size: 12px;
+        text-decoration: none;
+        color: rgb(12, 12, 12);
+    }
+    
+    .menu{
+        margin-top: 7px;
+    }
+    
+    h3{
+        padding-left: 30px;
+        display: inline-flex;
+    }
+    
+    .greeting{
+        border-bottom: 1px solid black;
+        height: 610px;
+        display: flex;
+    }
+    
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        width: 50%;
+        text-align: left;
+    }
+    
+    .heading{
+        padding-bottom: 10px;
+        font-size: 40px;
+    }
+    
+    .button{
+        width: 80px;
+        padding: 10px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgb(31, 31, 31);
+        border: 1px solid rgb(31, 31, 31);
+        border-radius: 20px;
+    }
+    
+    .images__greeting{
+        width: 50%;
+    }
+    
+    h4{
+        width: 100%;
+        padding-top: 20px;
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    h5{
+        width: 100%;
+        margin-bottom: 25px;
+        padding-top: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .posts-1, .posts-2{
+        position: relative;
+        border-bottom: 1px solid black;
+        display: flex;
+    }
+    
+    .images__posts-1, .images__posts-2{
+        height: 100%;
+        width: 50%;
+    }
+    
+    .paragraph__posts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+        width: 50%;
+        text-align: left;
+    }
+    
+    .heading__posts{
+        font-size: 40px;
+    }
+    
+    .posts-1 h4, .posts-2 h4{
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+    
+    .gallery{
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+    
+    .heading__gallery{
+        font-size: 50px;
+    }
+    
+    .container {
+        display: flex;
+        width: 100%;
+        padding: 4% 2%;
+        box-sizing: border-box;
+        height: 50vh;
+      }
+    
+    .box {
+        filter: brightness(40%);
+        flex: 1;
+        overflow: hidden;
+        transition: .5s;
+        box-shadow: 0 20px 30px rgba(0,0,0,.1);
+        line-height: 0;
+    }
+    
+    .box img {
+        width: 200%;
+        height: 100%;
+        object-fit: cover; 
+        transition: .5s;
+    }
+
+    .box span {
+        font-size: 0vh;
+        display: block;
+        text-align: center;
+        height: 0vh;
+        line-height: 0;
+      }
+    
+    .box:hover { 
+        flex: 1 1 50%; 
+        filter: brightness(105%);
+    }
+    
+    .box:hover img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .heading__features{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .blocks{
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        align-items: center;
+    }
+    
+    .block{
+        border-right: 1px solid rgb(32, 32, 32);
+        border-bottom: 1px solid rgb(32, 32, 32);
+        padding: 50px;
+        text-align: center;
+        width: 300px;
+    }
+    
+    .block h4{
+        margin-bottom: 20px;
+    }
+    
+    .block:last-child{
+        border-right: none
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+        align-items: center;
+    }
+
+    .check{
+        display: block;
+    }
+
+    .heading__connect{
+        padding-top: 50px;
+    }
+    
+    input{
+        font-family: 'century gothic';
+        border: 2px solid rgb(2, 0, 12);
+        width: 350px;
+        background-color: rgb(242, 242, 255);
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    #radio_3{
+        display: table-row;
+        width: 50px;
+    }
+    
+    b{
+        margin: 20px;
+    }
+    
+    textarea{
+        font-family: 'century gothic';
+        border: 2px solid rgb(2, 0, 12);
+        background-color: rgb(242, 242, 255);
+        width: 50%;
+        height: 200px;
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    select{
+        font-family: 'century gothic';
+        border: 2px solid rgb(2, 0, 12);
+        background-color: rgb(242, 242, 255);
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    button{
+        font-family: 'century gothic';
+        border: 2px solid rgb(2, 0, 12);
+        background-color: rgb(242, 242, 255);
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .morelinks{
+        margin: 0 0 0 auto;
+        padding-right: 20px;
+    }
+    
+    .morelinks img{
+        width: 30px;
+        height: 30px;
+        padding-left: 30px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .wrapper{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .top{
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+        margin-top: 15px;
+        padding-left: 50px;
+        display: flex;
+    }
+
+    .logo{
+        width: 50%;
+        font-size: 12px;
+        padding-right: 0px;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .top a{
+        display: none;
+        width: 100%;
+        font-size: 10px;
+        text-decoration: none;
+        color: rgb(12, 12, 12);
+    }
+    
+    .menu{
+        margin-top: 7px;
+    }
+    
+    h3{
+        padding-left: 30px;
+        display: inline-flex;
+    }
+    
+    .greeting{
+        border-bottom: 1px solid black;
+        height: 965px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+        width: 95%;
+        text-align: left;
+    }
+    
+    .heading{
+        padding-bottom: 10px;
+        font-size: 40px;
+    }
+    
+    .button{
+        width: 80px;
+        padding: 10px;
+        font-size: 25px;
+        text-decoration: none;
+        color: rgb(31, 31, 31);
+        border: 1px solid rgb(31, 31, 31);
+        border-radius: 20px;
+    }
+    
+    .images__greeting{
+        margin: 0;
+        width: 100%;
+    }
+    
+    
+    h4{
+        width: 100%;
+        padding-top: 20px;
+        font-size: 22px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    h5{
+        width: 100%;
+        margin-bottom: 25px;
+        padding-top: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .posts-1, .posts-2{
+        position: relative;
+        border-bottom: 1px solid black;
+        flex-direction: column;
+        display: flex;
+    }
+    
+    .images__posts-1, .images__posts-2{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .paragraph__posts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+        width: 50%;
+        text-align: left;
+    }
+    
+    .heading__posts{
+        font-size: 40px;
+    }
+    
+    .posts-1 h4, .posts-2 h4{
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+    
+    .gallery{
+        text-align: center;
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+    
+    .heading__gallery{
+        font-size: 50px;
+    }
+    
+    .container {
+        display: flex;
+        width: 100%;
+        padding: 4% 2%;
+        box-sizing: border-box;
+        height: 50vh;
+      }
+    
+    .box {
+        filter: brightness(40%);
+        flex: 1;
+        overflow: hidden;
+        transition: .5s;
+        box-shadow: 0 20px 30px rgba(0,0,0,.1);
+        line-height: 0;
+    }
+    
+    .box img {
+        width: 200%;
+        height: 100%;
+        object-fit: cover; 
+        transition: .5s;
+    }
+
+    .box span {
+        font-size: 0vh;
+        display: block;
+        text-align: center;
+        height: 0vh;
+        line-height: 0;
+      }
+    
+    .box:hover { 
+        flex: 1 1 50%; 
+        filter: brightness(105%);
+    }
+    
+    .box:hover img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .heading__features{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .blocks{
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        align-items: center;
+    }
+    
+    .block{
+        border-right: 1px solid rgb(32, 32, 32);
+        border-bottom: 1px solid rgb(32, 32, 32);
+        padding: 50px;
+        text-align: center;
+        width: 300px;
+    }
+    
+    .block h4{
+        margin-bottom: 20px;
+    }
+    
+    .block:last-child{
+        border-right: none
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-between;
+        align-items: center;
+    }
+
+    .check{
+        display: block;
+    }
+
+    .heading__connect{
+        padding-top: 50px;
+    }
+    
+    input{
+        font-family: 'century gothic';
+        border: 2px solid rgb(2, 0, 12);
+        width: 350px;
+        background-color: rgb(242, 242, 255);
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    #radio_3{
+        display: table-row;
+        width: 50px;
+    }
+    
+    b{
+        margin: 20px;
+    }
+    
+    textarea{
+        font-family: 'century gothic';
+        border: 2px solid rgb(2, 0, 12);
+        background-color: rgb(242, 242, 255);
+        width: 50%;
+        height: 200px;
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    select{
+        font-family: 'century gothic';
+        border: 2px solid rgb(2, 0, 12);
+        background-color: rgb(242, 242, 255);
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    button{
+        font-family: 'century gothic';
+        border: 2px solid rgb(2, 0, 12);
+        background-color: rgb(242, 242, 255);
+        padding: 10px;
+        margin: 20px;
+    }
+
+}
